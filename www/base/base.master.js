@@ -1,4 +1,4 @@
-document.addEventListener('deviceready', function(){
+//document.addEventListener('deviceready', function(){
 	/*--
 	 - Namespace initialized and reserved
 	 --*/
@@ -81,4 +81,4 @@ document.addEventListener('deviceready', function(){
 		);
 	});
 	
-}, false);
+//}, false);

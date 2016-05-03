@@ -253,8 +253,7 @@ define([], function(){
                 export : function(){
                     $('[data-class-action=export]').on('click', function(){
                         localStorage['--active-class'] = $(this).closest('[data-dom]').data('class-index');
-                        //location.href = 'export.html';
-                        window.open('http://apparato.net/REST/seat-plan/', _blank);
+                        location.href = 'export.html';
                         return false;
                     });
                 }, /*-- operation.perClass.export --*/
